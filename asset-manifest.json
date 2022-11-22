@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Attendance-Web/static/css/main.3af64e65.css",
+    "main.js": "/Attendance-Web/static/js/main.825d634a.js",
+    "static/media/phone2.png": "/Attendance-Web/static/media/phone2.54d800cd4960ba3d3ab1.png",
+    "static/media/mobile2.png": "/Attendance-Web/static/media/mobile2.c312b2c9670b7b4cb7e7.png",
+    "static/media/mobile1.png": "/Attendance-Web/static/media/mobile1.2028ddb2b44757b8acaf.png",
+    "static/media/easy.svg": "/Attendance-Web/static/media/easy.ac12160c74011d88a9b1c05594c8a216.svg",
+    "static/media/android.svg": "/Attendance-Web/static/media/android.2af9a312823d7b212d8cac7a41033746.svg",
+    "static/media/safe.svg": "/Attendance-Web/static/media/safe.b8779b9ae56b1cff7cbc6121c0b7ffa7.svg",
+    "index.html": "/Attendance-Web/index.html",
+    "static/media/download.svg": "/Attendance-Web/static/media/download.b82d9af07dab81c2ca4dbbf6e0be93b9.svg",
+    "static/media/wave.svg": "/Attendance-Web/static/media/wave.3912b3aab6bd36ffacec.svg",
+    "main.3af64e65.css.map": "/Attendance-Web/static/css/main.3af64e65.css.map",
+    "main.825d634a.js.map": "/Attendance-Web/static/js/main.825d634a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3af64e65.css",
+    "static/js/main.825d634a.js"
+  ]
+}
