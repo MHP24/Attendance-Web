@@ -12,8 +12,6 @@ import { Button } from '../../components/button/Button';
 import { isMobile } from 'react-device-detect';
 
 export const Landing = () => {
-
-  console.log(isMobile);
   return (
     <>
       <section className="hero" id='home'>
@@ -55,7 +53,10 @@ export const Landing = () => {
             isMobile ?
             <>
               <p className="content__paragraph">Presiona aqu&iacute; para comenzar la descarga gratuita.</p>
-              <Button content={'Descargar'} imgSrc={Download}/>
+              <a href="/DuocAttendance-release.apk" className="btn" download>
+                <img src={Download}  alt="download" className="btn__img" />
+                Descargar</a>
+              {/* <Button content={'Descargar'} imgSrc={Download}/> */}
             </>
             :
             <>
@@ -65,7 +66,6 @@ export const Landing = () => {
           }
         </div>
       </section>
-
       <section className="features">
         <p className="features__title">Garantizamos</p>
 

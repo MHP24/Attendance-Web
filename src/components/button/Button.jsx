@@ -1,8 +1,8 @@
 import React from 'react';
 import './button.css';
-export const Button = ({content, imgSrc=''}) => {
+export const Button = ({content, imgSrc='', func=null}) => {
   return (
-    <button className='btn'>
+    <button onClick={func} className='btn'>
     <img className='btn__icon' src={imgSrc}/>
     {content}
     </button>
