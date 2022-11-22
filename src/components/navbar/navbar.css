@@ -1,0 +1,63 @@
+:root {
+    --c1: #fafafa;
+    --c2: #171717;
+}
+
+.nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    background-color: var(--c1);
+    margin: auto;
+    width: 100%;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.25);
+}
+
+.nav__logo,
+.nav__link {
+    text-decoration: none;
+    color: var(--c2);
+    transition: .3s;
+}
+
+.nav__logo:hover,
+.nav__link:hover {
+    opacity: .85;
+    transition: .3s;
+}
+
+.nav__logo {
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: 'Dancing Script', cursive;
+}
+
+.nav__link {
+    margin-left: 1em;
+}
+
+.nav__link--important {
+    color: var(--c1);
+    background-color: var(--c2);
+    padding: .5em;
+    border-radius: .2rem;
+    transition: .3s;
+    font-weight: 600;
+}
+
+.nav__link--important:hover {
+    opacity: .9;
+    transition: .3s;
+}
+
+@media (max-width: 480px) {
+    .nav {
+        flex-direction: column;
+        gap: 2em;
+    }
+}

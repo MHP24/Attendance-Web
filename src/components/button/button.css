@@ -1,0 +1,29 @@
+/* Button */
+
+.btn {
+    display: flex;
+    align-items: center;
+    width: min-content;
+    gap: .6em;
+    cursor: default;
+    background: #FF8008;  
+    background: -webkit-linear-gradient(to right, #FFC837, #FF8008); 
+    background: linear-gradient(to right, #FFC837, #FF8008); 
+    padding: 1em 1.2em;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    letter-spacing: .05rem;
+    transition: .3s;
+    font-weight: 600;
+    margin: 1em 0;
+    color: var(--c1);
+    font-weight: 800;
+    border: none;
+}
+
+.btn:hover {
+    opacity: .9;
+    transition: .3s;
+}
+
+/*  */

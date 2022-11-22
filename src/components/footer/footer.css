@@ -1,0 +1,14 @@
+.footer {
+    background-color: var(--c2);
+    height: 20vh;
+    display: grid;
+    place-items: center;
+    margin-top: 10em;
+}
+
+.footer__title {
+    color: var(--c1);
+    font-size: 1.7rem;
+    font-weight: 700;
+    font-family: 'Dancing Script', cursive;
+}
