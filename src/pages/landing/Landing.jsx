@@ -53,7 +53,7 @@ export const Landing = () => {
             isMobile ?
             <>
               <p className="content__paragraph">Presiona aqu&iacute; para comenzar la descarga gratuita.</p>
-              <a href="/DuocAttendance-release.apk" className="btn" download>
+              <a href="https://drive.google.com/u/0/uc?id=1cI8OythcJWvqh-_yPdvdWf6X9m7vy0z9&export=download&confirm=t&uuid=c3343341-384b-4a77-b264-0bf8a5dde974&at=AHV7M3ecEu6MNqY7IeS6NhC2nNZR:1669178729085" className="btn" download>
                 <img src={Download}  alt="download" className="btn__img" />
                 Descargar</a>
               {/* <Button content={'Descargar'} imgSrc={Download}/> */}
