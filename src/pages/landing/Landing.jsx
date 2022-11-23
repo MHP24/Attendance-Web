@@ -60,7 +60,7 @@ export const Landing = () => {
             </>
             :
             <>
-              <p className="content__paragraph">Esc&aacute;nea el siguiente c&oacute;digo QR para comenzar la descarga. gratuita</p>
+              <p className="content__paragraph">Esc&aacute;nea el siguiente c&oacute;digo QR para comenzar la descarga gratuita.</p>
               <img src={QRImg} alt="qrImg" className="qr-img" />
             </>
           }
