@@ -21,8 +21,18 @@
 .nav__logo,
 .nav__link {
     text-decoration: none;
-    color: var(--c2);
     transition: .3s;
+    color: var(--c2);
+    font-weight: 400;
+}
+
+.nav__logo {
+    color: #305E94;
+    text-shadow: -1px -1px 2px rgba(150, 150, 150, 0.76);
+}
+
+.nav__logo--extra {
+    color: #FFBA20;
 }
 
 .nav__logo:hover,
@@ -43,7 +53,9 @@
 
 .nav__link--important {
     color: var(--c1);
-    background-color: var(--c2);
+    background: #FF8008;  
+    background: -webkit-linear-gradient(to right, #FFC837, #FF8008); 
+    background: linear-gradient(to right, #FFC837, #FF8008); 
     padding: .5em;
     border-radius: .2rem;
     transition: .3s;
