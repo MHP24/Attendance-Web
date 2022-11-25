@@ -6,7 +6,7 @@ import { ButtonLink } from '../../components/buttonLink/ButtonLink';
 export const Hero = () => {
   return (
     <section className="hero" id='home'>
-        <div className="hero__left animate__animated animate__fadeInLeft">
+        <div className="hero__left">
             <div className="hero__content">
                 <h1 className="hero__title">Porque hacer presencia es importante</h1>
                 <p className="hero__paragraph">Registra tu asistencia a clases con una aplicaci&oacute;n 
@@ -15,7 +15,7 @@ export const Hero = () => {
             </div>
         </div>
 
-        <div className="hero__right animate__animated animate__fadeInRight">
+        <div className="hero__right">
             <img src={Phones} alt="phones" className="hero__img" />
         </div>
     </section>
